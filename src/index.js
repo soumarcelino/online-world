@@ -1,8 +1,8 @@
 import 'phaser';
 
-var config = {
+const config = {
     type: Phaser.AUTO,
-    parent: 'phaser-example',
+    parent: 'root',
     width: 800,
     height: 600,
     scene: {
@@ -11,7 +11,7 @@ var config = {
     }
 };
 
-var game = new Phaser.Game(config);
+const game = new Phaser.Game(config);
 
 function preload ()
 {
@@ -20,7 +20,7 @@ function preload ()
 
 function create ()
 {
-    var logo = this.add.image(400, 150, 'logo');
+    const logo = this.add.image(400, 150, 'logo');
 
     this.tweens.add({
         targets: logo,
