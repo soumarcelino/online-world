@@ -1,0 +1,29 @@
+{
+  "name": "online-world",
+  "version": "1.0.0",
+  "description": "Online Arcade Game",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "webpack",
+    "start": "npm run build && webpack-dev-server --port=8000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+git@github.com:soumarcelino/online-world.git"
+  },
+  "author": "Marcelino Matias <marcelinomatiasdesouza@gmail.com>",
+  "license": "MIT",
+  "licenseUrl": "http://www.opensource.org/licenses/mit-license.php",
+  "bugs": {
+    "url": "https://github.com/photonstorm/phaser3-project-template/issues"
+  },
+  "homepage": "https://github.com/soumarcelino",
+  "devDependencies": {
+    "webpack-dev-server": "^2.11.0",
+    "webpack": "^3.4.1",
+    "raw-loader": "^0.5.1"
+  },
+  "dependencies": {
+    "phaser": "^3.3.0"
+  }
+}
